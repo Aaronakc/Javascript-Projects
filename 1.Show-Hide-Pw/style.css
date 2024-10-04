@@ -1,0 +1,38 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: rgb(63, 7, 12);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.input-div{
+  width: auto;
+  position: relative;
+}
+
+.input-div input{
+  outline: none;
+  border: none;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 15px;
+  padding-right: 30px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+
+.bi-eye-slash,.bi-eye{
+  position: absolute;
+  top: 14px;
+  right: 10px;
+  cursor: pointer;
+  
+}
