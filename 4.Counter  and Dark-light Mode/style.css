@@ -1,0 +1,51 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  overflow: hidden;
+}
+
+
+.outer-div{
+  width: 100vw;
+  height: 100vh; 
+  display: flex;
+  align-items: center;
+  margin: auto;
+}
+
+.container{
+  border: 2px solid black;
+   width: 50% !important;
+  height: 50% !important; 
+  display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+.counter{
+  text-align: center;
+}
+
+.counter button{
+  margin: 10px;
+}
+
+
+
+@media (max-width: 768px) {
+  .container {
+    width: 80% !important; 
+    height: auto;
+    .counter button{
+      display: block;
+      margin:  5px auto 5px;
+      margin-bottom: 10px;
+    
+    }
+    } 
+  }
+
