@@ -1,0 +1,91 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: rgb(195, 134, 37);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.rating{
+  width: 350px;
+  background-color: whitesmoke;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.rating h2{
+  text-align: center;
+}
+
+.stars{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.stars i{
+  font-size: 30px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+h3{
+  text-align: center;
+  height:30px;
+  
+}
+
+
+.leave-message{
+  text-align: center;
+}
+
+.leave-message textarea{
+outline: none;
+border: none;
+padding: 10px;
+resize: none;
+overflow-y: hidden;
+}
+
+.btn{
+ display: flex;
+ width: 100%;
+ justify-content: center;
+ margin: 10px 0;
+}
+
+.btn button{
+  padding: 10px;
+  border: none;
+  outline: none;
+  background-color: green;
+  color: white;
+  border-radius: 10px;
+}
+
+.second-page{
+  display: none;
+  width: 400px;
+  background-color: white;
+  text-align: center;
+  padding: 20px;
+  border-radius: 5px;
+  
+}
+
+.second-page button{
+ margin: 15px 0;
+ padding: 7px;
+ border-radius: 10px;
+ outline: none;
+ border: none;
+ background-color: rgb(186, 22, 22);
+ color: white;
+}
+
