@@ -1,0 +1,12 @@
+li {
+  list-style: none;
+  width: 25px;
+  padding-right: 25px !important;
+  cursor: pointer;
+}
+li:nth-child(1):active{
+  opacity: 0.6;
+}
+Li:nth-child(14):active{
+  opacity: 0.6;
+}
