@@ -29,7 +29,7 @@ body{
 .box .image{
  height: 100%;
  width: 100%;
-  background-image: url('./Images/img-1.jpeg');
+background-image: url('./Images/img-1.jpeg');
   background-size: cover;
 
 }
